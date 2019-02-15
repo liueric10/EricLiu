@@ -1,8 +1,56 @@
-header {
-    text-align: center;
+html {
+    background-color: #827308ff;
 }
 
-.pic-grid {
-    display: flex;
+header {
+    text-align: center;
+    color: #ff00ff;
+    padding-bottom: 30px;
+}
 
+body {
+    color: #ff0000;
+}
+
+.flag {
+    color: #827308ff;
+    background-color: magenta;
+}
+
+
+.pic-col {
+    width: 60%;
+    float: left;
+}
+
+.joe-pics {
+    padding-top: 30px;
+    padding-left: 20%;
+}
+
+.joe-flag {
+    margin-top: 50px;
+    padding-bottom: 100%;
+}
+
+
+.joe-pics-left {
+    float: left;
+}
+
+.joe-pics-right {
+    padding-left: 20px;
+    float: right;
+    width: 75px;
+    height: 193px;
+}
+
+.joe-pics-right .halehouse {
+    padding-bottom: 32px;
+}
+
+
+
+.text-col {
+    vertical-align: center;
 }
